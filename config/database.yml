@@ -85,5 +85,5 @@ test:
 production:
   <<: *default
   database: videoapp_backend_production
-  username: videoapp_backend
-  password: <%= ENV['VIDEOAPP_BACKEND_DATABASE_PASSWORD'] %>
+  username: root
+  password: root
